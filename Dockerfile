@@ -18,6 +18,7 @@ RUN add-apt-repository ppa:lyx-devel/release && \
         texlive \
 		texlive-bibtex-extra \
         texlive-lang-english \
+		texlive-lang-dutch \
         texlive-generic-recommended \
         texlive-latex-recommended \
         texlive-fonts-recommended \
