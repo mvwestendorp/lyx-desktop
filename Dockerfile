@@ -16,6 +16,7 @@ RUN add-apt-repository ppa:lyx-devel/release && \
     apt-get update && \
     apt-get install -q -y --no-install-recommends \
         texlive \
+		texlive-bibtex-extra \
         texlive-lang-english \
         texlive-generic-recommended \
         texlive-latex-recommended \
@@ -30,6 +31,7 @@ RUN add-apt-repository ppa:lyx-devel/release && \
         \
         python-lxml \
         \
+		biber \
         preview-latex-style \
         dvipng \
         lyx \
